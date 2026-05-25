@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakt | Sanova Umwelttechnik</title>
+  <meta name="description" content="Kontaktieren Sie Sanova Umwelttechnik für eine kostenlose Vor-Ort-Beratung. Tel: +49 6162 9449937 · Reinheim bei Darmstadt.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Für echten E-Mail-Versand: Formspree einbinden -->
+  <!-- <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script> -->
+</head>
+<body>
+
+<div id="nav-placeholder"></div>
+
+<div class="page-hero">
+  <div class="section-label">Jetzt anfragen</div>
+  <h1>Kontakt</h1>
+  <p>Wir melden uns innerhalb von 24 Stunden bei Ihnen – kostenlos und unverbindlich.</p>
+</div>
+
+<!-- ══ KONTAKT ═════════════════════════════════════════════════════ -->
+<section class="section">
+  <div class="container">
+    <div class="contact-grid">
+
+      <!-- Kontaktinfos -->
+      <div class="contact-info">
+        <h3>Sprechen Sie uns an</h3>
+        <p style="color:var(--text-light); margin-bottom:2rem; line-height:1.8;">
+          Ob kleines Sanierungsprojekt oder Großvorhaben – wir beraten Sie persönlich, ehrlich und kostenlos. Rufen Sie uns an oder schreiben Sie uns.
+        </p>
+
+        <div class="contact-item">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+          </div>
+          <div class="contact-item-text">
+            <strong>Telefon</strong>
+            <a href="tel:+4961629449937">+49 (0) 6162 9449937</a><br>
+            <a href="tel:+4915226486500" style="font-size:0.88rem; color:var(--text-light);">+49 (0) 152 26486500 (Mobil)</a>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+          </div>
+          <div class="contact-item-text">
+            <strong>E-Mail</strong>
+            <a href="mailto:info@sanova-umwelttechnik.de">info@sanova-umwelttechnik.de</a>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+          </div>
+          <div class="contact-item-text">
+            <strong>Adresse</strong>
+            <span>Anne-Frank-Str. 32<br>64354 Reinheim</span>
+          </div>
+        </div>
+
+        <div style="background:var(--bg-alt); border-radius:var(--radius-lg); padding:1.5rem; margin-top:1.5rem; border-left:4px solid var(--accent);">
+          <h4 style="font-family:var(--font-display); font-size:1rem; color:var(--primary); margin-bottom:0.4rem;">Kostenlose Vor-Ort-Beratung</h4>
+          <p style="color:var(--text-light); font-size:0.88rem; line-height:1.7;">Wir kommen zu Ihnen – unverbindlich und kostenfrei. Teilen Sie uns einfach Ihre Anfrage mit, und wir koordinieren einen Termin, der zu Ihnen passt.</p>
+        </div>
+      </div>
+
+      <!-- Kontaktformular -->
+      <div class="contact-form">
+        <h3 style="font-family:var(--font-display); font-size:1.3rem; color:var(--primary); margin-bottom:1.75rem;">Nachricht senden</h3>
+
+        <!--
+          HINWEIS FÜR DEN WEBMASTER:
+          Für echten E-Mail-Versand empfehlen wir Formspree (kostenlos bis 50 Nachrichten/Monat).
+          1. Konto auf formspree.io erstellen
+          2. action-Attribut unten ersetzen: action="https://formspree.io/f/IHRE-ID"
+          3. method="POST" hinzufügen
+          Alternativ: Netlify Forms, EmailJS oder ein eigenes PHP-Backend.
+        -->
+        <!-- FORMSPREE: action-URL mit Ihrer Form-ID ersetzen (formspree.io) -->
+        <form id="contactForm" action="https://formspree.io/f/xredarey" method="POST" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fname">Vorname *</label>
+              <input type="text" id="fname" name="vorname" required placeholder="Max">
+            </div>
+            <div class="form-group">
+              <label for="lname">Nachname *</label>
+              <input type="text" id="lname" name="nachname" required placeholder="Mustermann">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">E-Mail-Adresse *</label>
+            <input type="email" id="email" name="email" required placeholder="max@mustermann.de">
+          </div>
+          <div class="form-group">
+            <label for="phone">Telefonnummer</label>
+            <input type="tel" id="phone" name="telefon" placeholder="+49 ...">
+          </div>
+          <div class="form-group">
+            <label for="service">Betreffendes Leistungsgebiet</label>
+            <select id="service" name="leistung">
+              <option value="">-- Bitte auswählen --</option>
+              <option value="asbest">Asbestsanierung</option>
+              <option value="kmf">KMF-Sanierung</option>
+              <option value="pcb">PCB-Sanierung</option>
+              <option value="pak">PAK-Sanierung</option>
+              <option value="mehrere">Mehrere Schadstoffe</option>
+              <option value="unbekannt">Unbekannt / Beratung gewünscht</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Ihre Nachricht *</label>
+            <textarea id="message" name="nachricht" required placeholder="Beschreiben Sie Ihr Anliegen – z. B. Art des Gebäudes, Fläche, Dringlichkeit…"></textarea>
+          </div>
+          <div class="form-group">
+            <label style="display:flex; align-items:flex-start; gap:0.6rem; cursor:pointer; font-weight:400;">
+              <input type="checkbox" required style="width:auto; margin-top:3px; flex-shrink:0;">
+              <span style="font-size:0.85rem; color:var(--text-light);">Ich stimme der Verarbeitung meiner Daten gemäß der <a href="datenschutz.html" style="color:var(--accent);">Datenschutzerklärung</a> zu. *</span>
+            </label>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>
+            Nachricht senden
+          </button>
+          <p class="form-note">* Pflichtfelder · Ihre Daten werden nicht an Dritte weitergegeben.</p>
+          <div class="form-error" id="formError" style="display:none; background:rgba(200,80,80,0.1); border:1px solid #c85050; border-radius:4px; padding:1rem; color:#8b2020; font-size:0.9rem; text-align:center; margin-top:1rem;">⚠ Leider ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut oder schreiben Sie direkt an info@sanova-umwelttechnik.de</div>
+          <div class="form-success" id="formSuccess">
+            ✓ Vielen Dank! Wir haben Ihre Nachricht erhalten und melden uns innerhalb von 24 Stunden.
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div id="footer-placeholder"></div>
+<div id="cookie-placeholder"></div>
+
+<script src="js/components.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
